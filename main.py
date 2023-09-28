@@ -7,7 +7,7 @@ import sys
 
 try:
       client = pymongo.MongoClient(
-      "mongodb+srv://mongodb:xxxx@uvdb.eobop5a.mongodb.net/?retryWrites=true&w=majority")
+      "mongodb+srv://mongodb:admin@uvdb.eobop5a.mongodb.net/?retryWrites=true&w=majority")
   
 # return a friendly error if a URI error is thrown 
 except pymongo.errors.ConfigurationError:
